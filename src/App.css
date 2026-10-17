@@ -1,0 +1,98 @@
+
+  
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* Hero section */
+#home {
+  background: linear-gradient(135deg, #0d6efd, #123b85) !important;
+}
+
+#home h1 {
+  line-height: 1.2;
+}
+
+#home .btn {
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+
+/* Section headings */
+section h2 {
+  color: #17345f;
+  font-size: 2.2rem;
+}
+
+/* Course cards */
+#courses .card {
+  border-radius: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#courses .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* About section */
+#about {
+  background: #f3f7ff !important;
+}
+
+/* Testimonials */
+#testimonials .card {
+  border-radius: 18px;
+}
+
+/* Contact form */
+#contact .form-control,
+#contact .form-select {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+#contact .form-control:focus,
+#contact .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 2.3rem;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}

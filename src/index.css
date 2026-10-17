@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #243047;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
